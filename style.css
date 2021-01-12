@@ -13,6 +13,10 @@ html{
 a{
 	text-decoration: none;
 }
+.responsive {
+	width: 100%;
+	height: auto;
+  }
 .container{
 	min-height: 100vh;
 	width: 100%;
@@ -303,13 +307,13 @@ p{
 #services .services{
 	flex-direction: column;
 	text-align: center;
-	max-width: 1500px;
+	width: 100%;
 	margin: 0;
 	padding: 100px 0;
 	background-color: pink;
 }
 #services .service-top{
-	max-width: 500px;
+	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 70px;
 }
